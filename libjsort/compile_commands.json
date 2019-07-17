@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/system/CRAIL/crail-spark-terasort/libjsort",
+  "command": "/usr/bin/c++   -Djsort_EXPORTS -I/home/system/CRAIL/crail-spark-terasort/libjsort/. -I/usr/lib/jvm/java-8-oracle/include -I/usr/lib/jvm/java-8-oracle/include/linux   -std=c++11 -Wall -Werror -mtune=native -fPIC   -o CMakeFiles/jsort.dir/com_ibm_radixsort_NativeRadixSort.cpp.o -c /home/system/CRAIL/crail-spark-terasort/libjsort/com_ibm_radixsort_NativeRadixSort.cpp",
+  "file": "/home/system/CRAIL/crail-spark-terasort/libjsort/com_ibm_radixsort_NativeRadixSort.cpp"
+}
+]

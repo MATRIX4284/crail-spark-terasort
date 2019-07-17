@@ -33,7 +33,7 @@ public class BufferCache {
     List<SerializerBuffer> serBufferCache = null;
 
     private BufferCache(){
-        serBufferCache = new LinkedList<>();
+        serBufferCache = new LinkedList<SerializerBuffer>();
         totalAccess = missAccess = 0;
     }
 

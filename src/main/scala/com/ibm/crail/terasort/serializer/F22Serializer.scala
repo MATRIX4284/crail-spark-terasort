@@ -172,7 +172,7 @@ class F22DeserializerStream(defaultSerializer: Serializer, inStream: CrailBuffer
   }
 
   override final def readValue[T: ClassTag](): T = {
-    val value = new Array[Byte](TeraInputFormat.VALUE_LEN)
+    val value: Array[Byte] = new Array[Byte](TeraInputFormat.VALUE_LEN)
     val ret = inStream.read(value)
     if(ret == -1) {
       /* mark the end of the stream : this is caught by spark to mark EOF - duh ! */

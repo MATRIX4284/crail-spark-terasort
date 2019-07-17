@@ -56,7 +56,7 @@ public class ParseTeraOptions {
                 "  \\_/\\___|_|  \\__,_\\____/ \\___/|_|   \\__|\n";
 
         options = new Options();
-        sparkParams = new Hashtable<>();
+        sparkParams = new Hashtable<String, String>();
 
         testNames = new String[]{"loadonly", "loadstore", "loadcount", "loadcountstore", "loadsort", "loadsortstore"};
         testIndex = 5; /* loadsortstore is the default */
